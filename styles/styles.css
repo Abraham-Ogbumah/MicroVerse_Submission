@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-style: 24px;
+    color: #F9FAF8;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-links {
+    text-decoration: none;
+}
+
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.bg {
+    background-color: #1F2937;
+}
+
+.main-img {
+    width: 600px;
+    height: 250px;
+}
+
+.main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#top-section {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    /* margin-bottom: 20px; */
+}
+
+.main-title {
+    width: 400px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.main-section h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#about {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.carddiv {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+
+.card-container {
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-text p{
+    text-align: center;
+    line-height: 1.2;
+}
+
+#testimonial {
+    background-color: #E5E7EB;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.quote {
+    width: 760px;
+    margin: 0 auto;
+}
+
+.quote h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote p {
+    text-align: end;
+    color: #1F2937;
+}
+
+#signUp {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.signUp-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    border-radius: 15px;
+}
+
+.signUp-text {
+    color: #fff;
+}
+
+.button {
+    padding: 9px;
+    border: 2px solid white;
+    width: 100px;
+    height: 39px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #3882F6;
+}
+
+.button-top {
+    padding: 9px;
+    width: 100px;
+    height: 39px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #3882F6;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff
+}
+
+.button-top a {
+    text-decoration: none;
+    color: #fff
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
